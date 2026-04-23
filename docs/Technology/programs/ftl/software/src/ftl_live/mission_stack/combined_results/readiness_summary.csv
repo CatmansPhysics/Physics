@@ -1,0 +1,3 @@
+check,passed,value,threshold
+mission_layer_ready,True,6.0,6.0
+ready_for_window_portfolio,True,1.0,0.95

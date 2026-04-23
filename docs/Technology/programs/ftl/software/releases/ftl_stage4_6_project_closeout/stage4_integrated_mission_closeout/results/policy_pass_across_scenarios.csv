@@ -1,0 +1,4 @@
+policy,passed
+adaptive_default,True
+fatigue_aware,True
+safety_adaptive,False

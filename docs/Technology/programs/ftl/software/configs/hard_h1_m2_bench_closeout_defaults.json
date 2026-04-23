@@ -1,0 +1,23 @@
+{
+  "baseline_cycles": 256,
+  "disorder_levels": [0.04, 0.06, 0.08],
+  "top_gap_values": [1.05, 1.1, 1.15],
+  "tau_values": [7.6, 8.0, 8.4],
+  "params": {
+    "top_gap": 1.1,
+    "pin_strength": 0.92,
+    "defect_noise0": 0.06,
+    "disorder_growth_per_cycle": 0.008,
+    "tau_sw": 8.0,
+    "delta0": 0.58,
+    "b0": 1.08,
+    "bind_scale": 0.1,
+    "refresh_strength": 0.92,
+    "q_drift_per_cycle": 0.004,
+    "fidelity_target": 0.94,
+    "epsilon_comp_target": 0.06,
+    "bind_margin_target": 0.18,
+    "topo_support_target": 0.7,
+    "protection_target": 0.65
+  }
+}

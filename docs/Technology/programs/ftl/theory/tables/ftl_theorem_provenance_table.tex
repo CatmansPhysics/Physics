@@ -1,0 +1,20 @@
+\section*{FTL Theorem Provenance Table}
+
+This table records the current theorem-writing interface between the source text, the canonical Lean layer, and the prose manuscript. Only theorem families that already have a stable role in the current FTL package are listed here.
+
+\begin{longtable}{p{0.18\linewidth}p{0.23\linewidth}p{0.19\linewidth}p{0.28\linewidth}}
+\toprule
+\textbf{Manuscript theorem family} & \textbf{Source anchor} & \textbf{Lean declaration anchor} & \textbf{Current manuscript role} \\
+\midrule
+\endhead
+Observer-relative FTL status is comparative, not absolute & FTL-S03, FTL-S05 & \texttt{Source/040\_ObserverLuminalFramework.lean}: \texttt{ftlStatus}, \texttt{observerRelativeFTL} & Foundational semantic theorem-schema for Chapter 01. \\
+Branch-locked binary witness family & FTL-S14 to FTL-S16 & \texttt{FTL/Targets.lean}: \texttt{branch\_locked\_binary\_witness}; \texttt{FTL/Theorems.lean}: \texttt{branch\_locked\_binary\_witness\_of\_background} & First soft target family for Chapter 02. \\
+Soft repeatability family & FTL-S19 to FTL-S21, FTL-S52 & \texttt{FTL/Targets.lean}: \texttt{soft\_witness\_repeatability}; \texttt{FTL/Theorems.lean}: \texttt{soft\_witness\_repeatability\_of\_background} & Repeatability theorem family for Chapters 02 and 07. \\
+One-pole hard admissibility family & FTL-S23 to FTL-S27 & \texttt{FTL/Targets.lean}: \texttt{one\_pole\_hard\_cycle\_admissibility}; \texttt{FTL/Theorems.lean}: \texttt{one\_pole\_hard\_cycle\_admissibility\_of\_background}, \texttt{onePoleAdmissibleSingleton} & Minimal hard-route theorem family for Chapter 03. \\
+Composite hard repeatability family & FTL-S28 to FTL-S30, FTL-S52 & \texttt{FTL/Targets.lean}: \texttt{composite\_hard\_cycle\_repeatability}; \texttt{FTL/Theorems.lean}: \texttt{composite\_hard\_cycle\_repeatability\_of\_background} & Composite hard theorem family for Chapter 03. \\
+Integrated soft-to-hard mission admissibility & FTL-S04, FTL-S46, FTL-S52 & \texttt{FTL/Targets.lean}: \texttt{integrated\_soft\_to\_hard\_mission\_admissibility}; \texttt{FTL/Theorems.lean}: \texttt{mission\_admissible\_with\_ftl\_target\_suite}, \texttt{integrated\_mission\_witness\_with\_ftl\_target\_suite} & Main integrated theorem family for Chapter 04. \\
+Full FTL background implies full target suite & Minimal axiomatic package, final audit closure, calibration and embedding blocks & \texttt{FTL/Axioms.lean}: \texttt{full\_ftl\_background\_implies\_ftl\_target\_suite}; \texttt{FTL/Theorems.lean}: \texttt{ftl\_target\_suite\_of\_full\_background} & Global theorem-bundle bridge for Chapters 05 and 07. \\
+Engineering boundary closure & FTL-S44 through FTL-S52 & \texttt{Source/138\_RepeatabilityAndEngineeringBoundary.lean}: \texttt{engineeringBoundaryReached} & Boundary theorem-schema for Chapters 05, 06, and 07. \\
+Local soft control plus mission admissibility witness & Mission/control source layers and integrated architecture program & \texttt{FTL/Theorems.lean}: \texttt{localControlWitness}, \texttt{integrated\_mission\_local\_control\_and\_target\_suite} & Witness theorem family linking local readout and mission stack in Chapter 04. \\
+\bottomrule
+\end{longtable}

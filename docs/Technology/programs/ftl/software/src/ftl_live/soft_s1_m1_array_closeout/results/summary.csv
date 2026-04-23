@@ -1,0 +1,2 @@
+rows,cols,baseline_cycles,long_cycles,baseline_mean_array_accuracy,baseline_min_array_accuracy,baseline_max_failed_cell_fraction,baseline_worst_margin,long_mean_array_accuracy,long_min_array_accuracy,long_max_failed_cell_fraction,long_worst_margin,memory_criterion_ok,glass_criterion_ok,sweep_feasible_fraction,stage2_closeout_ready
+16,16,256,1024,0.9686126708984375,0.93359375,0.06640625,0.8581306699555474,0.9679145812988281,0.92578125,0.07421875,0.858050109563598,True,True,1.0,True

@@ -1,0 +1,19 @@
+\section*{FTL Theory Section Ledger}
+
+This ledger records how the canonical FTL theory manuscript is partitioned across chapter files, source blocks, and formalization layers. It is the primary writing-control table for keeping the prose manuscript synchronized with the source corpus and the Lean package.
+
+\begin{longtable}{p{0.16\linewidth}p{0.24\linewidth}p{0.28\linewidth}p{0.24\linewidth}}
+\toprule
+\textbf{Chapter file} & \textbf{Primary source anchor} & \textbf{Normalized manuscript role} & \textbf{Lean alignment anchor} \\
+\midrule
+\endhead
+\texttt{00\_protocol\_and\_vocabulary.tex} & \texttt{FTL\_v1.md} global framing; roadmap engineering labels & Fix observer-relative semantics, soft/hard split, stage ladders, and status discipline before theorem exposition. & \texttt{FTL/Targets.lean}, \texttt{FTL/Axioms.lean} \\
+\texttt{01\_imported\_foundations.tex} & Source blocks FTL-S03 and FTL-S05 & State the imported observer, luminal-sector, and admissibility framework within which FTL statements are meaningful. & \texttt{Source/040\_ObserverLuminalFramework.lean} \\
+\texttt{02\_soft\_route.tex} & Source blocks FTL-S13 through FTL-S21 & Present candidate soft sectors, branch-locked witness structures, scanner logic, persistence, and soft robustness. & \texttt{Source/084\_NonFactorizableSoftSector.lean}, \texttt{Source/090\_BranchLockedSoftSector.lean} through \texttt{Source/098\_SoftRobustness.lean}; \texttt{FTL/Targets.lean} \\
+\texttt{03\_hard\_route.tex} & Source blocks FTL-S22 through FTL-S43 & Present hard carrier candidates, one-pole and composite cycles, identity preservation, binding stability, and admissible hard classes. & \texttt{Source/100\_HardCarrierCandidates.lean} through \texttt{Source/121\_OpenAdmissibleHardClass.lean}; \texttt{FTL/Targets.lean} \\
+\texttt{04\_integrated\_architecture.tex} & Source blocks FTL-S04, FTL-S46, FTL-S52 & Explain the first coupled soft-to-hard architecture, mission integration, and the minimal integrated target. & \texttt{FTL/MissionControl.lean}, \texttt{FTL/Theorems.lean} \\
+\texttt{05\_material\_assumptions\_and\_constraints.tex} & Source blocks FTL-S46 through FTL-S51; roadmap medium downselection language & Normalize memory-dominated versus carrier-dominated media, calibration conditions, control closure, resource closure, and material embedding assumptions. & \texttt{Source/133\_SoftCalibration.lean} through \texttt{Source/137\_MaterialEmbedding.lean}; \texttt{FTL/Axioms.lean} \\
+\texttt{06\_failure\_modes\_and\_nonclaims.tex} & Source blocks FTL-S04, FTL-S21, FTL-S31, FTL-S44 & Gather failure modes, admissibility violations, and explicit non-claims in one audit-facing chapter. & Failure bundles across soft and hard source files; \texttt{FTL/Axioms.lean} \\
+\texttt{07\_forward\_dependencies.tex} & Source blocks FTL-S44 through FTL-S52; roadmap deliverables & Record theorem-provenance dependencies, numerical obligations, and the theory-to-prototype boundary. & \texttt{Source/130\_FinalAudit.lean}, \texttt{Source/138\_RepeatabilityAndEngineeringBoundary.lean}, \texttt{FTL/Theorems.lean} \\
+\bottomrule
+\end{longtable}

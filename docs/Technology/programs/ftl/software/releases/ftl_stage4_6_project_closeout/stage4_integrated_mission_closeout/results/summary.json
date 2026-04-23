@@ -1,0 +1,14 @@
+{
+  "scenarios_total": 4,
+  "scenario_policy_pairs": 12,
+  "policies_passing_all_scenarios": 2,
+  "recommended_default_policy": "fatigue_aware",
+  "default_policy_stable_across_scenarios": true,
+  "default_policy_avg_success_rate": 0.974609375,
+  "default_policy_avg_readiness": 0.9910454093801206,
+  "default_policy_worst_route_misclassification_rate": 0.03125,
+  "default_policy_worst_min_hard_fidelity": 0.9464143213850406,
+  "default_policy_worst_min_bind_margin": 0.49245563023600303,
+  "default_policy_worst_min_topo_protection": 0.8661077676901193,
+  "stage4_closeout_ready": true
+}

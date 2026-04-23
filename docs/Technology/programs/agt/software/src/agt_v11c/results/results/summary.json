@@ -1,0 +1,53 @@
+{
+  "strip": {
+    "params": {
+      "kind": "strip",
+      "h0": 1.0,
+      "mu": 1.2,
+      "ell_h": 2.0,
+      "i0": 48,
+      "left": 20,
+      "right": 58,
+      "ic": 48,
+      "R": 10,
+      "V_scale": 10.0
+    },
+    "plus_peaks": 0,
+    "minus_peaks": 1,
+    "plus_top_peak_q": null,
+    "minus_top_peak_q": 0.6945606694560669,
+    "plus_top_peak_dwell": null,
+    "minus_top_peak_dwell": 43.642127833649496,
+    "plus_max_T": 2.6767639547586684e-79,
+    "minus_max_T": 0.9999998260193427
+  },
+  "bubble": [
+    {
+      "R": 8,
+      "plus_A_peaks": 0,
+      "minus_A_peaks": 1,
+      "plus_max_dwell": 0.00123270947698051,
+      "minus_max_dwell": 1.738391498403739,
+      "plus_max_absorption": 4.93083790792204e-05,
+      "minus_max_absorption": 0.06953565993614956
+    },
+    {
+      "R": 12,
+      "plus_A_peaks": 0,
+      "minus_A_peaks": 1,
+      "plus_max_dwell": 0.0012327094770023968,
+      "minus_max_dwell": 1.7383914967727598,
+      "plus_max_absorption": 4.9308379080095876e-05,
+      "minus_max_absorption": 0.06953565987091039
+    },
+    {
+      "R": 16,
+      "plus_A_peaks": 0,
+      "minus_A_peaks": 1,
+      "plus_max_dwell": 0.0012327094781972494,
+      "minus_max_dwell": 1.7383914985179911,
+      "plus_max_absorption": 4.9308379127889974e-05,
+      "minus_max_absorption": 0.06953565994071964
+    }
+  ]
+}

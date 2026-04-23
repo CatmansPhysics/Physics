@@ -1,0 +1,2 @@
+n_cycles,selection_accuracy,hard_execution_rate,mission_successes,all_missions_successful,mean_soft_margin,mean_confidence,mean_hard_fidelity,min_hard_fidelity,min_bind_margin,min_topo_protection,mean_readiness
+16,1.0,1.0,16,True,0.9232422290052786,1.0,0.9529184312315897,0.9491335354559965,0.49619641131754344,0.754335377127633,1.0

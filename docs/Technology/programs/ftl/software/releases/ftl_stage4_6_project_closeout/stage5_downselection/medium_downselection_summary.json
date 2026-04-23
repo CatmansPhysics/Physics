@@ -1,0 +1,10 @@
+{
+  "soft": {
+    "selected_stack": "glassy_chemical_memory_stack",
+    "reserve_stack": "polymeric_information_bearing_stack"
+  },
+  "hard": {
+    "selected_stack": "topological_defect_protected_composite_stack",
+    "reserve_stack": "paired_gapped_carrier_stack_as_primary"
+  }
+}

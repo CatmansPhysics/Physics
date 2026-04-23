@@ -1,0 +1,2 @@
+checks_total,checks_passed,all_checks_passed,recommended_default_profile,recommended_adaptive_policy
+9,9,True,topo_secure,safety_adaptive

@@ -1,0 +1,11 @@
+{
+  "source_packages": [
+    "soft_s0_m1_simulator",
+    "hard_h0_m1_simulator",
+    "hard_h1_m2_simulator",
+    "ftl_orchestration_package",
+    "ftl_portfolio_package",
+    "ftl_profile_optimizer_package",
+    "ftl_adaptive_policy_package"
+  ]
+}

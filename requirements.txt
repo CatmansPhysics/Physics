@@ -1,0 +1,4 @@
+# Python runtime requirements for PhysicsLean experiments.
+# The experiment package itself is stdlib-only; pytest is used to run the
+# smoke tests under PhysicsLean/experiments/tests/.
+pytest>=8.0

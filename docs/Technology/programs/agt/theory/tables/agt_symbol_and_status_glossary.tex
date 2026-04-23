@@ -1,0 +1,67 @@
+\section*{AGT Symbol and Status Glossary}
+
+This table normalizes the notation and statement-status labels for the AGT program. It is the canonical reference for the clean theory manuscript and for the computational manuscript.
+
+\subsection*{Statement Status Labels}
+
+\begingroup
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}L{0.14\linewidth}L{0.82\linewidth}@{}}
+\textbf{Label} & \textbf{Meaning} \\
+{[A]} & Definition or axiom adopted as part of the AGT program language. \\
+{[D]} & Derived proposition expected to follow from the imported framework together with AGT-specific axioms. \\
+{[T]} & Target theorem not yet claimed as proved; used for scaling, compatibility, and existence claims. \\
+{[H]} & Working hypothesis used conditionally in later sections. \\
+{[IA]} & Imported effective ansatz used explicitly as non-core continuum language. \\
+F & Failure mode that identifies a concrete collapse mechanism of the program. \\
+\end{longtable}
+
+\subsection*{Core Symbols}
+
+\begin{longtable}{@{}L{0.18\linewidth}L{0.78\linewidth}@{}}
+\textbf{Symbol} & \textbf{Normalized meaning} \\
+$\sigma_g$ & Grav-residue observable with values in $\{-1,0,+1\}$. \\
+$\Sigma_g$ & Grav-residue sector attached to the AGT object definition. \\
+$\rho_g$ & Signed observer-level source density induced by grav-residue sectors. \\
+$\rho_+,\rho_-,\rho_0$ & Positive, negative, and neutral coarse sector densities in the mixed-medium regime. \\
+$P_g$ & Grav-polarization order field used for phase, wall, and bubble sectors. \\
+$\phi_g$ & Signed observer-level potential solving the Green or Poisson channel. \\
+$F^{(g)}_{\mathcal O}$ & Effective observer-level gravitational force on a probe sector. \\
+$E^{(g)}_{\mathcal O}$ & Observer-level probe interaction energy in the signed geometric channel. \\
+$\Gamma_g$ & Positive coupling constant used in the effective probe interaction law. \\
+$K^{(g,\mathrm{sgn})}_{\mathcal O}(z,\theta,\eta,s)$ & Sign-level grav-marked transport kernel used for the initial spectral formulation of AGT. \\
+$K^{(g,\mathrm{int})}_{\mathcal O}(z,\theta,\eta,s)$ & Integer-level grav-marked transport kernel used after sharpening to microscopic grav-charge increments. \\
+$Q^{\mathrm{spec}}_{g,\mathrm{sgn}}$ & Sign-level spectral grav-charge candidate extracted from the marked dominant branch. \\
+$Q^{\mathrm{spec}}_{g,\mathrm{int}}$ & Integer-level spectral grav-charge candidate extracted after sharpening to microscopic grav-charge increments. \\
+$\tau_g$ & Wall tension of a grav-domain wall or bubble interface. \\
+$\nu_0$ & Neutral fraction of the mixed coarse medium. \\
+$\Sigma_w$ & Coarse wall-density or wall-measure variable in large-scale regimes. \\
+$n_b(R)$ & Bubble-size distribution in the large-scale population description. \\
+$\mu_{\mathrm{scr}}$ & Screening scale or spectral screening gap in the dressed medium. \\
+$m_\sigma(i)$ & Local spectral mass landscape used in the AGT toy model. \\
+$M^{\mathrm{in}}_\sigma(i)$ & Local interior spectral quantity reported by the toy-model package. \\
+$Q^{\mathrm{toy}}_{g,\sigma}(i)$ & Local spectral grav-charge proxy in the toy-model package. \\
+$U_\sigma(i)$ & Effective defect potential used in the 1D scattering realization. \\
+$T,R,A$ & Transmission, reflection, and absorption observables in the scattering experiments. \\
+$\gamma_{\mathrm{int}}$ & Interface-loss parameter controlling the absorption proxy in the resonance experiments. \\
+\end{longtable}
+
+\subsection*{Canonical AGT Statement Ledger}
+
+\begin{longtable}{@{}L{0.16\linewidth}L{0.12\linewidth}L{0.68\linewidth}@{}}
+\textbf{Item} & \textbf{Status} & \textbf{Canonical interpretation} \\
+AG1--AG4 & {[A]} & Grav-residue observable, residue class, rewrite invariance, and transfer stability form the minimal internal AGT language. \\
+AG5, AG11, AG13, AG17 & {[D]} & Grav-residue differs from mass, attraction/repulsion law, and neutral-composite consequences are treated as derived structural consequences. \\
+AG-T1 & {[T]} & Repulsive scaling window theorem: repulsion appears in an observer window with stable signed Green asymptotics. \\
+AG-T2 & {[T]} & Spectral/observer compatibility theorem: spectral grav-charge agrees with observer-level grav-residue sign. \\
+AG123 & {[H]} & Working spectral compatibility hypothesis used conditionally in the later spectral-closure chapter. \\
+AG67--AG86 & {[IA]} & Imported effective phase, interface, and bubble ansatze used for the continuum organization layer. \\
+AG-T6, AG-T8, AG-T9, AG-T12, AG-T15, AG-T16 & {[T]} & Mesoscopic regime, interface-sector, transport, spectral-closure, large-scale regime, and falsifiability targets extend the AGT line beyond the early sign shell. \\
+AG-F1--AG-F5 and AG-F9--AG-F12 & F & Failure of residue construction, scaling window, screening closure, coarse mixed-media stability, and interface-sector stability remain mandatory audit items. \\
+\end{longtable}
+
+The sign-level and integer-level theorem spectral charges $Q^{\mathrm{spec}}_{g,\mathrm{sgn}}$ and $Q^{\mathrm{spec}}_{g,\mathrm{int}}$ must be distinguished from local toy-model proxies such as $Q^{\mathrm{toy}}_{g,\sigma}(i)$; the latter are computational diagnostics and not direct substitutes for theorem-level objects.
+
+Downstream software, emulator, and hardware artifacts are recorded only in the prototype-bridge appendix and are not part of theorem evidence.
+\endgroup

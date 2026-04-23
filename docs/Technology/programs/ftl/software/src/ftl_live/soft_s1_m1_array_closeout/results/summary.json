@@ -1,0 +1,18 @@
+{
+  "rows": 16,
+  "cols": 16,
+  "baseline_cycles": 256,
+  "long_cycles": 1024,
+  "baseline_mean_array_accuracy": 0.9686126708984375,
+  "baseline_min_array_accuracy": 0.93359375,
+  "baseline_max_failed_cell_fraction": 0.06640625,
+  "baseline_worst_margin": 0.8581306699555474,
+  "long_mean_array_accuracy": 0.9679145812988281,
+  "long_min_array_accuracy": 0.92578125,
+  "long_max_failed_cell_fraction": 0.07421875,
+  "long_worst_margin": 0.858050109563598,
+  "memory_criterion_ok": true,
+  "glass_criterion_ok": true,
+  "sweep_feasible_fraction": 1.0,
+  "stage2_closeout_ready": true
+}

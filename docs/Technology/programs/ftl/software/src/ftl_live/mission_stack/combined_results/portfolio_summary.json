@@ -1,0 +1,17 @@
+{
+  "mission_cycles": 16.0,
+  "selection_accuracy": 1.0,
+  "hard_execution_rate": 1.0,
+  "mission_successes": 16.0,
+  "all_missions_successful": 1.0,
+  "mean_soft_margin": 0.9232422290052786,
+  "mean_confidence": 1.0,
+  "mean_hard_fidelity": 0.9529184312315897,
+  "min_hard_fidelity": 0.9491335354559965,
+  "min_bind_margin": 0.49619641131754344,
+  "min_topo_protection": 0.754335377127633,
+  "mean_readiness": 1.0,
+  "sweep_total_points": 27.0,
+  "sweep_all_successful_points": 27.0,
+  "sweep_best_mean_readiness": 1.0
+}

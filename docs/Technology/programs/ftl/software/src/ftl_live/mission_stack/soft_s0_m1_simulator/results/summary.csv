@@ -1,0 +1,2 @@
+n_cycles,success_cycles,all_cycles_successful,mean_fidelity,min_margin,mean_margin,max_xi_post,mean_delta_med,tau_flip,tau_relax,cycle_time,memory_criterion_ok,glass_criterion_ok
+32,32,True,1.0,0.877433743146314,0.9053540665320964,0.3533737200673717,1.0,35.0,35.0,1.7500000000000002,True,True

@@ -1,0 +1,3 @@
+window_name,cycles,executed,successes,mean_confidence,mean_hard_fidelity,min_bind_margin,mean_readiness
+DISTANT_WINDOW,8,8,8,1.0,0.9554127903760024,0.5054614400913428,1.0
+SAFE_WINDOW,8,8,8,1.0,0.950424072087177,0.49619641131754344,1.0

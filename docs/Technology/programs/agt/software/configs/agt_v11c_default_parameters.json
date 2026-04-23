@@ -1,0 +1,48 @@
+{
+  "graph_config": {
+    "N": 80,
+    "epsilon": 0.02,
+    "long_edges": []
+  },
+  "sector_params": {
+    "a_hop": 1.0,
+    "a_bind": 0.7,
+    "a_unbind": 1.4,
+    "a0": 0.9,
+    "a_n": 0.8,
+    "a_n_tilde": 1.1,
+    "beta0": 0.08,
+    "gamma0": 0.08
+  },
+  "run_params": {
+    "dt": 0.02,
+    "T": 200.0,
+    "gamma_int": 0.02,
+    "ds": 0.0001,
+    "eta_lo": 0.001,
+    "eta_hi": 5.0,
+    "q_grid_small": [0.0, 0.02, 0.04, 0.06, 0.08]
+  },
+  "strip_interface": {
+    "kind": "strip",
+    "h0": 1.0,
+    "mu": 1.2,
+    "ell_h": 2.0,
+    "left": 20,
+    "right": 58,
+    "V_scale": 10.0
+  },
+  "bubble_interface_template": {
+    "kind": "bubble",
+    "h0": 1.0,
+    "mu": 1.2,
+    "ell_h": 2.0,
+    "ic": 40,
+    "R_values": [8, 12, 16],
+    "V_scale": 14.0
+  },
+  "notes": [
+    "This file records the effective parameter set used by the canonical v1.1c resonance runs in experiments.run_all.",
+    "The source dataclass defaults differ from the run_all overrides; this file is the canonical reproducibility reference for the imported legacy results."
+  ]
+}

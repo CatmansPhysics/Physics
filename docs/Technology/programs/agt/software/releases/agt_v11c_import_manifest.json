@@ -1,0 +1,21 @@
+{
+  "program": "agt",
+  "canonical_import": "docs/Technology/programs/agt/software/src/agt_v11c",
+  "imported_from": "docs/Technology/AGT/agt_v11c",
+  "package_name": "AGT-1 Toy Model v1.1c",
+  "entry_point": "scripts/run_v11c.py",
+  "python_package": "agt_v11c",
+  "included_subtrees": [
+    "agt_v11c",
+    "scripts",
+    "results",
+    "README.md"
+  ],
+  "excluded_patterns": [
+    "__pycache__/"
+  ],
+  "notes": [
+    "This import preserves the live toy-model source tree and the frozen result bundle already present in the legacy AGT directory.",
+    "Later normalization may split source, generated reports, and release artifacts into more granular canonical locations, but this import is the authoritative starting snapshot."
+  ]
+}

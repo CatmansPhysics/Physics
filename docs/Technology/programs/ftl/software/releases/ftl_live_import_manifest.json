@@ -1,0 +1,24 @@
+{
+  "program": "ftl",
+  "canonical_import": "docs/Technology/programs/ftl/software/src/ftl_live",
+  "imported_from": [
+    "docs/Technology/FTL/ftl_final_baseline_package_archive.zip",
+    "docs/Technology/FTL/soft_s1_m1_array_closeout_package_archive.zip",
+    "docs/Technology/FTL/hard_h1_m2_bench_closeout_package_archive.zip",
+    "docs/Technology/FTL/ftl_mission_scenario_package_archive.zip"
+  ],
+  "release_reference": "docs/Technology/programs/ftl/software/releases/ftl_stage4_6_project_closeout",
+  "included_subtrees": [
+    "baseline",
+    "soft_s1_m1_array_closeout",
+    "hard_h1_m2_bench_closeout",
+    "mission_stack"
+  ],
+  "excluded_patterns": [
+    "__pycache__/"
+  ],
+  "notes": [
+    "The canonical FTL live tree is a frozen reconstruction built from the baseline, soft closeout, hard closeout, and mission archives rather than from a previously existing monorepo.",
+    "The stage 4-6 closeout archive is preserved separately as a release-level reference because it is a closeout and dossier layer, not a source package."
+  ]
+}

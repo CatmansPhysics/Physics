@@ -1,0 +1,13 @@
+{
+  "baseline_fidelity": 0.9506360208547552,
+  "baseline_epsilon_id_comp": 0.04936397914524482,
+  "baseline_min_onepole_gap": 0.22100000000000009,
+  "baseline_tau_sw_min": 6.597371516189717,
+  "baseline_carrier_margin": 0.3387103418915913,
+  "baseline_hold_min_bind_margin": 0.6928646453158708,
+  "baseline_hold_mean_gamma": 0.0036563357117364538,
+  "baseline_hold_mean_topo_protection": 0.8706806690966227,
+  "baseline_max_bound_support": 0.998120062641704,
+  "baseline_mean_topo_support": 0.8953127152849629,
+  "baseline_feasible": true
+}

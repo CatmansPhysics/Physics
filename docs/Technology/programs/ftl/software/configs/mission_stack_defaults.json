@@ -1,0 +1,18 @@
+{
+  "n_cycles": 16,
+  "confidence_scale": 0.9,
+  "confidence_threshold": 0.55,
+  "prep_time_factor": 4.0,
+  "safe_q": 1.95,
+  "distant_q": 2.25,
+  "safe_top_gap": 0.98,
+  "distant_top_gap": 0.9,
+  "safe_b0": 0.88,
+  "distant_b0": 0.95,
+  "q_conf_shift": 0.1,
+  "tau_boost_safe": 0.5,
+  "tau_boost_distant": 0.95,
+  "mission_fidelity_target": 0.945,
+  "readiness_bind_target": 0.42,
+  "readiness_topo_target": 0.72
+}

@@ -1,0 +1,22 @@
+{
+  "program": "materia",
+  "canonical_import": "docs/Technology/programs/materia/software/src/p0_prototype",
+  "imported_from": "docs/Technology/Materia/p0_prototype_bundle.zip",
+  "package_name": "P0 Materialization Prototype",
+  "entry_point": "scripts/run_all.py",
+  "python_package": "p0",
+  "included_subtrees": [
+    "p0",
+    "scripts",
+    "results",
+    "requirements.txt",
+    "README.md"
+  ],
+  "excluded_patterns": [
+    "__pycache__/"
+  ],
+  "notes": [
+    "This import preserves the exact bundle structure of the P0 prototype while removing only Python cache files.",
+    "The canonical import provides the reproducible starting point for later test, config, and report normalization."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "baseline_fidelity": 0.9506360208547552,
+  "repeatability_success_rate": 1.0,
+  "repeatability_min_fidelity": 0.9506360208547552,
+  "min_binding_margin": 0.49964234016422826,
+  "min_topological_protection": 0.8706806690966227,
+  "robustness_feasible_fraction": 1.0,
+  "stage3_closeout_ready": true
+}

@@ -1,0 +1,14 @@
+{
+  "q_star": 0.6328125,
+  "order_gap": 0.265625,
+  "good_count": 6,
+  "bad_count": 8,
+  "order_negative_labels": [
+    "DenseAmorphous",
+    "OffLatticeDense",
+    "MixedCrystalStrained",
+    "UnderfilledIdeal",
+    "GlassLikeNoisy",
+    "FragmentedIslands"
+  ]
+}

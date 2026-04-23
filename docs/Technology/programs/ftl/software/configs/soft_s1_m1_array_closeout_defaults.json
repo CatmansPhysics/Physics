@@ -1,0 +1,29 @@
+{
+  "rows": 16,
+  "cols": 16,
+  "baseline_cycles": 256,
+  "long_cycles": 1024,
+  "heterogeneity": 0.02,
+  "read_samples": 196,
+  "random_seed": 17,
+  "medium": {
+    "tau_flip": 60.0,
+    "tau_relax": 70.0,
+    "signal_contrast": 2.4,
+    "read_noise": 0.1,
+    "p_write": 0.998,
+    "p_reset": 0.996,
+    "fatigue_per_cycle": 0.006,
+    "fatigue_coupling_read": 0.09,
+    "fatigue_coupling_write": 0.06,
+    "fatigue_coupling_reset": 0.08,
+    "fatigue_coupling_flip": 0.07,
+    "t_read": 0.55,
+    "t_hold": 0.9,
+    "t_write": 0.12,
+    "t_reset": 0.18,
+    "n_samples": 96,
+    "n_cycles": 32,
+    "random_seed": 2
+  }
+}

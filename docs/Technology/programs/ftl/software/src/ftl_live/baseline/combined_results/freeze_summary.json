@@ -1,0 +1,7 @@
+{
+  "checks_total": 9,
+  "checks_passed": 9,
+  "all_checks_passed": true,
+  "recommended_default_profile": "topo_secure",
+  "recommended_adaptive_policy": "safety_adaptive"
+}

@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Lean / Lake build artifacts
+PhysicsLean/.lake/
+PhysicsLean/build/
+PhysicsLean/lake-packages/
+**/.lake/
+**/build/
+**/lake-packages/
+*.olean
+*.ilean
+*.trace
+*.hash
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.idx
+*.ind
+*.ilg
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# Heavy binary bundles / archives (kept out of git; track via registry/links)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Large data and model blobs
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local overrides
+.env
+.env.local
+
+# External source symlink (lives outside the repo; not versioned here)
+/SymSeq

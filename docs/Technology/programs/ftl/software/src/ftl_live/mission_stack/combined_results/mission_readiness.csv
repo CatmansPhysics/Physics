@@ -1,0 +1,7 @@
+check,passed,value,threshold
+selection_accuracy_ok,True,1.0,1.0
+hard_execution_rate_ok,True,1.0,1.0
+hard_fidelity_ok,True,0.9491335354559965,0.945
+binding_margin_ok,True,0.49619641131754344,0.42
+topo_protection_ok,True,0.754335377127633,0.72
+mean_readiness_ok,True,1.0,0.95

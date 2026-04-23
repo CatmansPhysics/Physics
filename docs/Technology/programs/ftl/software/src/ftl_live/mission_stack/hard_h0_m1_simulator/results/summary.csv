@@ -1,0 +1,17 @@
+metric,value
+baseline_fidelity,0.9354417825757558
+baseline_epsilon_id_1p,0.06455821742424417
+baseline_min_gap,0.5647018403417183
+baseline_min_gap_eff,0.5557915824158995
+baseline_tau_sw_min,0.823433581764573
+baseline_a_max,0.27447786058819107
+baseline_carrier_margin,0.1648447034939835
+baseline_mean_linewidth_hold,0.015258729422847504
+repeatability_cycles,16.0
+repeatability_min_fidelity,0.9263637486567219
+repeatability_max_epsilon_id_1p,0.07363625134327811
+repeatability_min_gap_eff,0.5557915824158995
+repeatability_max_fatigue_in,0.04692307691665645
+sweep_total_points,9.0
+sweep_feasible_points,5.0
+sweep_best_fidelity,0.9491429599323886

@@ -1,0 +1,10 @@
+check,passed
+soft_s0_m1_all_cycles_successful,True
+soft_s0_m1_memory_criterion_ok,True
+soft_s0_m1_glass_criterion_ok,True
+hard_h0_m1_repeatability_min_fidelity_ge_0_92,True
+hard_h1_m2_repeatability_min_fidelity_ge_0_95,True
+orchestrator_all_cycles_successful,True
+portfolio_profiles_passing_ge_3,True
+optimizer_feasible_scenarios_all,True
+adaptive_policies_passing_ge_3,True
